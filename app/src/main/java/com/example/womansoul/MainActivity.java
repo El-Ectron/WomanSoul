@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                validar(correo.getText().toString(),pass.getText().toString());h
+                validar(correo.getText().toString(),pass.getText().toString());
             }
         });
         create.setOnClickListener(new View.OnClickListener() {
